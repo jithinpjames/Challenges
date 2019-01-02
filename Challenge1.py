@@ -12,7 +12,7 @@ def file_write(content):
     with open ('Challenge1.txt','w') as file:
         file.write(content)
         path2 = os.path.join(os.getcwd(),'Challenge1.html')
-        print('Add to cart success,please verify the cart details from html file : - %s or text file : - %s' %(path1,path2))
+        print('Add to cart success,veify using: - %s or: - %s' %(path1,path2))
 
 def get_data(resp):
     """" Builds data required for the post request as a dictionary
